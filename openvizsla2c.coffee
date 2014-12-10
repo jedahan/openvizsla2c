@@ -17,11 +17,3 @@ for packet,i in data.split 'SETUP: 5.0'
     for byte,i in buffer
       console.log "send[#{i}] = 0x#{buffer[i]};"
     console.log "libusb_control_transfer(devh, 0x#{bmRequestType}, 0x#{bRequest}, 0x#{wValueH}#{wValueL}, 0x#{wIndexH}#{wIndexL}, send, #{buffer.length}, 0);"
-
-
-  ###
-  [type,contents] = line.split(':')
-  console.log type, contents
-  if type is 'DATA0'
-    tree
-    ###
