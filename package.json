@@ -1,0 +1,15 @@
+{
+  "name": "openvizsla2c",
+  "version": "0.1.0",
+  "description": "",
+  "main": "openvizsla2c.coffee",
+  "scripts": {
+    "start": "coffee openvizsla2c.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "^1.8.0"
+  }
+}

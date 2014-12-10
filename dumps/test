@@ -1,0 +1,10 @@
+SETUP: 5.0
+DATA0: 40 bc 00 09 74 00 02 00 00 9e
+ACK
+OUT  : 5.0
+DATA1: 00 04 ff 8c
+ACK
+IN   : 5.0
+DATA1: 00 00
+ACK
+
