@@ -16,4 +16,4 @@ for packet,i in data.split 'SETUP: 5.0'
     console.log "unsigned char send[#{buffer.length}];"
     for byte,i in buffer
       console.log "send[#{i}] = 0x#{buffer[i]};"
-    console.log "libusb_control_transfer(devh, 0x#{bmRequestType}, 0x#{bRequest}, 0x#{wValueH}#{wValueL}, 0x#{wIndexH}#{wIndexL}, send, #{buffer.length}, 0);"
+   console.log "libusb_control_transfer(devh, 0x#{bmRequestType}, 0x#{bRequest}, 0x#{wValueH}#{wValueL}, 0x#{wIndexH}#{wIndexL}, send, #{buffer.length}, 0);"
