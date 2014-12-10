@@ -9,3 +9,7 @@ one time
 every time
 
     npm start
+
+easier analysis
+
+    npm test

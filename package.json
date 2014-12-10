@@ -5,7 +5,7 @@
   "main": "openvizsla2c.coffee",
   "scripts": {
     "start": "coffee openvizsla2c.coffee",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "coffee openvizsla.coffee"
   },
   "author": "",
   "license": "ISC",
