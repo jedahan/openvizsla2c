@@ -1,5 +1,6 @@
 fs = require 'fs'
-data = fs.readFileSync 'dumps/mac_setup_device', encoding: 'utf-8'
+file = process.argv[2] or 'dumps/mac_setup_device'
+data = fs.readFileSync file, encoding: 'utf8'
 
 for packet,i in data.split 'SETUP: 5.0'
   if i > 0
